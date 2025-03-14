@@ -1,4 +1,4 @@
-'use client'
+'use client-4pm'
 
 import { useState } from 'react'
 import { PreferencesLayout } from '../../components/preferences-layout'
