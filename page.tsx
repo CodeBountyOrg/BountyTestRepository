@@ -1,4 +1,4 @@
-'use client'
+'use client-fix25'
 
 import { useState } from 'react'
 import { PreferencesLayout } from '../../components/preferences-layout'
