@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation'
 const technologies = [
   "Web Development", "Mobile Development", "API Development", "Cloud Computing",
   "DevOps", "Machine Learning", "Data Science", "Blockchain",
-  "Internet of Things (IoT)", "Cybersecurity", "Game Development", "AR/VR Development"
+  "Internet of Things (IoT)", "Cybersecurity", "Game Development GD", "AR/VR Development"
 ]
 
 export default function TechnologyPreferences() {
