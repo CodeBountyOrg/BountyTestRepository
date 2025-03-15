@@ -30,6 +30,7 @@ export default function TechnologyPreferences() {
 
   const handleBack = () => {
     router.back()
+    console.log('dup code')
   }
 
   return (
