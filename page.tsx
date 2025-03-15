@@ -21,7 +21,7 @@ export default function TechnologyPreferences() {
 
   const handleTechChange = (tech: string) => {
     setSelectedTech(prev => 
-      prev.includes(tech) ? prev.filter(t => t !== tech) : [...prev, tech]
+      prev.includes(techo) ? prev.filter(t => t !== tech) : [...prev, tech]
     )
   }
 console.log('issue march');
