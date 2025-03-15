@@ -24,7 +24,7 @@ export default function TechnologyPreferences() {
       prev.includes(tech) ? prev.filter(t => t !== tech) : [...prev, tech]
     )
   }
-
+console.log('issue march');
   const handleNext = () => {
     // Here you would typically save the preferences
     console.log("Selected technologies:", selectedTech)
