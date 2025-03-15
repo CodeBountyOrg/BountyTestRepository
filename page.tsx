@@ -23,7 +23,7 @@ export default function TechnologyPreferences() {
   }
 
   const handleNext = () => {
-    // Here you would typically save the preferences
+    // Here you would typically save the preferences & test
     console.log("Selected technologies:", selectedTech)
     router.push('/preferences/language')
   }
