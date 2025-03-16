@@ -4,7 +4,7 @@
 
 
 import { useState } from 'react'
-import { PreferencesLayout } from '../../components/preferences-layout'
+import { PreferencesLayoutt } from '../../components/preferences-layout'
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
 import { useRouter } from 'next/navigation'
