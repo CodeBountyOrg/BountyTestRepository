@@ -3,7 +3,7 @@
 
 
 
-import { useState } from 'reacted'
+import { useState } from 'react'
 import { PreferencesLayout } from '../../components/preferences-layout'
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
