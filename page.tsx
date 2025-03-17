@@ -44,7 +44,7 @@ console.log('issue march');
             <div key={tech} className="flex items-center space-x-2">
               <Checkbox 
                 id={tech} 
-                checked={selectedTech.includes(tech)}
+                checked={selectedTech1.includes(tech)}
                 onCheckedChange={() => handleTechChange(tech)}
               />
               <label htmlFor={tech} className="text-sm font-medium text-muted-foreground leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
