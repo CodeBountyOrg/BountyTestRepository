@@ -38,6 +38,7 @@ console.log('issue march');
 
   const handleBack = () => {
     router.back()
+    console.log('dup code')
   }
 
   return (
