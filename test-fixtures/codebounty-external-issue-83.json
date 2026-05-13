@@ -1,0 +1,33 @@
+{
+  "event": "external_bounty.created",
+  "repository": {
+    "full_name": "CodeBountyOrg/BountyTestRepository"
+  },
+  "issue": {
+    "number": 83,
+    "title": "Creating issue as an external user without App Installed",
+    "source": "external_sponsor"
+  },
+  "installation": {
+    "app_installed": false,
+    "expected_path": "maintainer_approval_required"
+  },
+  "bounty": {
+    "amount_usd": 150,
+    "currency": "USD",
+    "provider": "CodeBounty"
+  },
+  "timeline": [
+    {
+      "status": "pending_maintainer_approval",
+      "requires_maintainer_action": true,
+      "comment_type": "bounty_pending_approval"
+    },
+    {
+      "status": "available",
+      "requires_maintainer_action": false,
+      "comment_type": "bounty_announcement",
+      "required_pr_syntax": "fixes #83"
+    }
+  ]
+}
