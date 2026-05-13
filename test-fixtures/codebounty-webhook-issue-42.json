@@ -1,0 +1,15 @@
+{
+  "event": "bounty.available",
+  "repository": {
+    "full_name": "CodeBountyOrg/BountyTestRepository"
+  },
+  "issue": {
+    "number": 42,
+    "title": "webhooks test"
+  },
+  "bounty": {
+    "amount_usd": 150,
+    "status": "available",
+    "provider": "CodeBounty"
+  }
+}
