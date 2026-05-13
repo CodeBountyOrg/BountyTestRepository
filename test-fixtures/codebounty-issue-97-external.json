@@ -1,0 +1,31 @@
+{
+  "issue": {
+    "repo": "CodeBountyOrg/BountyTestRepository",
+    "number": 97,
+    "title": "external issue",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/97",
+    "body": "test"
+  },
+  "bounty": {
+    "source": "CodeBounty bot comment",
+    "amount": 50,
+    "currency": "USD",
+    "label": "💰 Bounty Available",
+    "platform_application_required": true,
+    "verified_payable": false
+  },
+  "pr_linkage": {
+    "required_phrase": "fixes #97",
+    "case_sensitive": false
+  },
+  "deliverable": {
+    "type": "external-issue-fixture",
+    "purpose": "Provide a deterministic fixture for the externally-created CodeBounty test issue so future bounty intake can validate issue, amount, linkage, and payout-boundary parsing without live platform credentials.",
+    "acceptance_checks": [
+      "fixture issue number is 97",
+      "visible CodeBounty amount is 50 USD",
+      "PR body/linkage includes fixes #97",
+      "verified-payable remains false until CodeBounty application and maintainer/platform acceptance are confirmed"
+    ]
+  }
+}
