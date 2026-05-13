@@ -1,0 +1,23 @@
+{
+  "issue": {
+    "number": 17,
+    "title": "codebountry",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/17",
+    "body": "codebountry",
+    "state": "OPEN",
+    "labels": ["💰 Bounty Available"]
+  },
+  "bounty": {
+    "platform": "CodeBounty",
+    "amount_usd": 120,
+    "announcement_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/17#issuecomment-2675442925",
+    "details_url": "https://dev.codebounty.ai/bounty/67b8dcb7f3737b952c6d461e",
+    "required_pr_phrase": "fixes #17",
+    "eligibility_blocker": "CodeBounty platform application must be submitted/accepted outside GitHub before this is verified-payable."
+  },
+  "validation": {
+    "fixture_purpose": "Machine-readable receipt for the issue #17 CodeBounty test case so agents can distinguish submitted-visible value from verified-payable value.",
+    "expected_normalized_key": "codebountry",
+    "expected_amount_usd": 120
+  }
+}
