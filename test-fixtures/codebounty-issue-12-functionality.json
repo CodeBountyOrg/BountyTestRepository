@@ -1,0 +1,35 @@
+{
+  "repository": {
+    "full_name": "CodeBountyOrg/BountyTestRepository"
+  },
+  "issue": {
+    "number": 12,
+    "title": "this is a test issue 21325",
+    "intent": "functionality_smoke_test"
+  },
+  "bounty": {
+    "amount_usd": 100,
+    "currency": "USD",
+    "provider": "CodeBounty"
+  },
+  "pr": {
+    "required_syntax": "fixes #12"
+  },
+  "checks": [
+    {
+      "id": "issue_linkage",
+      "required": true,
+      "description": "The contribution must explicitly link back to issue #12."
+    },
+    {
+      "id": "bounty_amount",
+      "required": true,
+      "description": "The fixture must preserve the visible $100 bounty amount."
+    },
+    {
+      "id": "local_validation",
+      "required": true,
+      "description": "The fixture must be validated by a dependency-free local script."
+    }
+  ]
+}
