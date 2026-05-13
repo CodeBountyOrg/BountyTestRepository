@@ -1,0 +1,14 @@
+{
+  "blockedArtifacts": [
+    {
+      "name": "xyz.dll",
+      "reason": "Issue #9 reports xyz.dll as vulnerable; it must not be shipped, referenced, or reintroduced."
+    }
+  ],
+  "allowedReferences": [
+    "SECURITY.md",
+    "package.json",
+    "scripts/security-audit.mjs",
+    "security/denylist.json"
+  ]
+}

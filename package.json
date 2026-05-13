@@ -1,0 +1,8 @@
+{
+  "name": "bounty-test-repository-security-guard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "security:audit": "node scripts/security-audit.mjs"
+  }
+}
