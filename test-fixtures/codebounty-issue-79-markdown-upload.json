@@ -1,0 +1,54 @@
+{
+  "issue": {
+    "number": 79,
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/79",
+    "title": "test issue april 3 12pm",
+    "state": "open",
+    "body": "test\n\n**testing markdown**\n\n*Failed to upload Screenshot 2025-04-01 at 4.36.27 PM.png*",
+    "labels": ["enhancement"],
+    "assignees": [],
+    "locked": false
+  },
+  "bounty": {
+    "platform": "CodeBounty",
+    "visible_amount_usd": 50,
+    "visible_amount_source": "bot_comments",
+    "status_at_snapshot": "announced_by_two_bot_comments_bounty_label_absent",
+    "announcement_comment_count": 2,
+    "announcement_comments": [
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/79#issuecomment-2781152381",
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/79#issuecomment-2781152397"
+    ],
+    "bounty_links": [
+      "http://localhost:3000/bounty/67f1cc90f54cb17267113c7e",
+      "http://localhost:3000/bounty/67f1ccb1f54cb17267113c83"
+    ],
+    "required_pr_linkage": "fixes #79",
+    "developer_application_required": true,
+    "verified_payable_at_snapshot": false,
+    "blocker": "The CodeBounty announcement requires a platform application; GitHub-only PR submission is submitted-visible, not verified-payable. The issue itself lacks the bounty-available label, so the visible amount is sourced only from bot comments."
+  },
+  "markdown_upload_snapshot": {
+    "bold_markdown_preserved": true,
+    "failed_upload_recorded": true,
+    "failed_upload_filename": "Screenshot 2025-04-01 at 4.36.27 PM.png",
+    "note": "This fixture preserves the issue's markdown and failed-upload evidence so the PR has a deterministic validation target instead of a placeholder edit."
+  },
+  "collision_snapshot": {
+    "checked_at": "2026-05-13T22:43:39Z",
+    "repo_archived": false,
+    "repo_visibility": "PUBLIC",
+    "open_pr_search_terms": ["79", "fixes #79", "issue 79", "test issue april 3 12pm"],
+    "same_scope_open_pr_count": 0
+  },
+  "expected_pr": {
+    "title": "test: add CodeBounty issue 79 markdown fixture",
+    "body_must_include": [
+      "fixes #79",
+      "CodeBounty",
+      "$50",
+      "developer_application_required",
+      "bounty_label_absent"
+    ]
+  }
+}
