@@ -1,0 +1,36 @@
+{
+  "issue": {
+    "repo": "CodeBountyOrg/BountyTestRepository",
+    "number": 95,
+    "title": "test issue creation from external sponsor",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/95",
+    "body": "test",
+    "state": "open",
+    "labels": ["💰 Bounty Available"]
+  },
+  "bounty": {
+    "source": "CodeBounty bot comment",
+    "amount_usd": 50,
+    "announcement_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/95#issuecomment-2803965362",
+    "application_required": true,
+    "required_pr_linkage": "fixes #95",
+    "verified_payable": false,
+    "payout_blocker": "CodeBounty platform application and maintainer acceptance are not verified from GitHub alone."
+  },
+  "submission": {
+    "artifact": "test-fixtures/codebounty-issue-95-external-sponsor.json",
+    "validator": "scripts/validate-codebounty-issue-95.py",
+    "expected_pr_body_token": "Fixes #95",
+    "claim_boundary": "This fixture validates the public GitHub-side bounty metadata only; it does not assert payout eligibility."
+  },
+  "collision_check": {
+    "exact_terms_checked": ["95", "fixes #95", "issue 95"],
+    "exact_open_pr_matches_at_authoring": 0,
+    "same_scope_advisory_terms": ["external sponsor"],
+    "same_scope_advisory_matches_at_authoring": [
+      "https://github.com/CodeBountyOrg/BountyTestRepository/pull/118",
+      "https://github.com/CodeBountyOrg/BountyTestRepository/pull/122"
+    ],
+    "boundary": "Advisory matches document nearby external-sponsor fixtures for other issues; no open PR targeted issue #95 at authoring time."
+  }
+}
