@@ -1,0 +1,74 @@
+{
+  "issue": {
+    "number": 100,
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/100",
+    "title": "issue apr 17 235",
+    "state": "open",
+    "body": "235 am",
+    "labels": ["bug", "💰 Bounty Available"],
+    "assignees": [],
+    "locked": false
+  },
+  "bounty": {
+    "platform": "CodeBounty",
+    "visible_amount_usd": 50,
+    "visible_amount_source": "bot_comments",
+    "status_at_snapshot": "announced_by_two_bot_comments_bounty_label_present",
+    "announcement_comment_count": 2,
+    "announcement_comments": [
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/100#issuecomment-2812057916",
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/100#issuecomment-2812058021"
+    ],
+    "bounty_links": [
+      "http://localhost:3000/bounty/6800af954e2040a18be603c7",
+      "http://localhost:3000/bounty/6800af954e2040a18be603cc"
+    ],
+    "required_pr_linkage": "fixes #100",
+    "developer_application_required": true,
+    "verified_payable_at_snapshot": false,
+    "blocker": "The CodeBounty announcement requires a platform application; a GitHub PR is submitted-visible only until CodeBounty/maintainer acceptance and payout eligibility are verified."
+  },
+  "duplicate_announcement_snapshot": {
+    "duplicate_bot_announcements": true,
+    "unique_bounty_link_count": 2,
+    "human_comment_present": true,
+    "human_comment_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/100#issuecomment-2840500225",
+    "note": "Issue #100 has two CodeBounty bot announcement comments for the same $50 bounty. This fixture preserves both distinct local bounty links and the maintainer/user follow-up comment so downstream validation can distinguish duplicate announcement evidence from payout verification."
+  },
+  "collision_snapshot": {
+    "checked_at": "2026-05-13T23:23:01Z",
+    "repo_archived": false,
+    "repo_visibility": "PUBLIC",
+    "open_pr_search_terms": ["100", "fixes #100", "issue 100", "apr 17 235"],
+    "same_scope_open_pr_count": 0,
+    "raw_open_pr_search_hits": 3,
+    "false_positive_open_pr_hits": [
+      {
+        "pr": "https://github.com/CodeBountyOrg/BountyTestRepository/pull/115",
+        "title": "docs: add issue #103 bounty note",
+        "match_reason": "GitHub search hit from issue #103 / $100 context; no exact issue-100 linkage."
+      },
+      {
+        "pr": "https://github.com/CodeBountyOrg/BountyTestRepository/pull/113",
+        "title": "docs: add issue #8 bounty note",
+        "match_reason": "GitHub search hit from $100 bounty context; no exact issue-100 linkage."
+      },
+      {
+        "pr": "https://github.com/CodeBountyOrg/BountyTestRepository/pull/119",
+        "title": "test: add issue 12 functionality smoke fixture",
+        "match_reason": "GitHub search hit from $100 bounty context; no exact issue-100 linkage."
+      }
+    ]
+  },
+  "expected_pr": {
+    "title": "test: add CodeBounty issue 100 duplicate-announcement fixture",
+    "body_must_include": [
+      "fixes #100",
+      "CodeBounty",
+      "$50",
+      "developer_application_required",
+      "duplicate_bot_announcements",
+      "verified_payable=false"
+    ]
+  }
+}
