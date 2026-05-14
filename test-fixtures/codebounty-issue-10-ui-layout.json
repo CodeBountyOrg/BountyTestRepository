@@ -1,0 +1,66 @@
+{
+  "issue": {
+    "repo": "CodeBountyOrg/BountyTestRepository",
+    "number": 10,
+    "title": "Testing new UI changes",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/10",
+    "state_at_snapshot": "open",
+    "locked_at_snapshot": false,
+    "assignees_at_snapshot": [],
+    "labels_at_snapshot": [
+      "bug",
+      "💰 Bounty Available"
+    ],
+    "body": "This is new layout",
+    "non_claim_comments_at_snapshot": [
+      {
+        "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/10#issuecomment-2740243123",
+        "author": "Manoraj19",
+        "summary": "Interest in testing the UI design; no public PR/claim linkage found in the collision snapshot."
+      }
+    ]
+  },
+  "bounty": {
+    "source": "CodeBounty bot comment",
+    "source_confidence": "bot-comment-plus-bounty-label",
+    "announcement_comment_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/10#issuecomment-2655476261",
+    "platform_bounty_url": "https://dev.codebounty.ai/bounty/67ad7b0abf2a3690859c17b4",
+    "amount": 30,
+    "currency": "USD",
+    "label": "💰 Bounty Available",
+    "platform_application_required": true,
+    "verified_payable": false
+  },
+  "collision_snapshot": {
+    "captured_at_utc": "2026-05-14T03:29:45Z",
+    "repo_archived": false,
+    "open_pr_count_at_repo": 37,
+    "search_terms": [
+      "10",
+      "#10",
+      "fixes #10",
+      "issue 10",
+      "Testing new UI changes",
+      "new UI changes"
+    ],
+    "raw_open_pr_search_hits": 4,
+    "same_scope_open_prs": []
+  },
+  "pr_linkage": {
+    "required_phrase": "Fixes #10",
+    "case_sensitive": false
+  },
+  "deliverable": {
+    "type": "codebounty-ui-layout-fixture",
+    "purpose": "Preserve deterministic evidence for the CodeBounty UI-layout issue so future intake can validate issue state, visible amount, required GitHub linkage, collision checks, and payout boundary without relying on platform credentials.",
+    "acceptance_checks": [
+      "fixture issue number is 10",
+      "visible CodeBounty amount is 30 USD",
+      "public bot announcement URL is recorded",
+      "issue is open, unlocked, and unassigned at snapshot",
+      "no same-scope open PR collision existed at snapshot",
+      "PR body/linkage includes Fixes #10",
+      "verified-payable remains false until CodeBounty application and maintainer/platform acceptance are confirmed"
+    ]
+  }
+}
