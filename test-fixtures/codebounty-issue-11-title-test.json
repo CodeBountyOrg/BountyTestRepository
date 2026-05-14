@@ -1,0 +1,56 @@
+{
+  "issue": {
+    "repo": "CodeBountyOrg/BountyTestRepository",
+    "number": 11,
+    "title": "Issue title test",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/11",
+    "state_at_snapshot": "open",
+    "locked_at_snapshot": false,
+    "assignees_at_snapshot": [],
+    "labels_at_snapshot": [
+      "💰 Bounty Available"
+    ],
+    "body": "no description"
+  },
+  "bounty": {
+    "source": "CodeBounty bot comment",
+    "source_confidence": "bot-comment-plus-bounty-label",
+    "announcement_comment_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/11#issuecomment-2655518687",
+    "platform_bounty_url": "https://dev.codebounty.ai/bounty/67ad8292bf2a3690859c18df",
+    "amount": 10,
+    "currency": "USD",
+    "label": "💰 Bounty Available",
+    "platform_application_required": true,
+    "verified_payable": false
+  },
+  "collision_snapshot": {
+    "captured_at_utc": "2026-05-14T02:45:45Z",
+    "repo_archived": false,
+    "open_pr_count_at_repo": 36,
+    "search_terms": [
+      "11",
+      "#11",
+      "fixes #11",
+      "issue 11",
+      "Bounty Launch",
+      "Issue title test"
+    ],
+    "same_scope_open_prs": []
+  },
+  "pr_linkage": {
+    "required_phrase": "Fixes #11",
+    "case_sensitive": false
+  },
+  "deliverable": {
+    "type": "codebounty-title-test-fixture",
+    "purpose": "Preserve deterministic evidence for the CodeBounty title-test issue so future intake can validate issue state, visible amount, required GitHub linkage, collision checks, and payout boundary without relying on platform credentials.",
+    "acceptance_checks": [
+      "fixture issue number is 11",
+      "visible CodeBounty amount is 10 USD",
+      "public bot announcement URL is recorded",
+      "no same-scope open PR collision existed at snapshot",
+      "PR body/linkage includes Fixes #11",
+      "verified-payable remains false until CodeBounty application and maintainer/platform acceptance are confirmed"
+    ]
+  }
+}
