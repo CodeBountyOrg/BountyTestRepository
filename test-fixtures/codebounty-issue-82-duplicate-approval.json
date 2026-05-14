@@ -1,0 +1,62 @@
+{
+  "issue": {
+    "number": 82,
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/82",
+    "title": "test new issue apr 6 1235am",
+    "state": "open",
+    "body": "testing.",
+    "labels": ["💰 Bounty Available"],
+    "assignees": [],
+    "locked": false
+  },
+  "bounty": {
+    "platform": "CodeBounty",
+    "visible_amount_usd": 10,
+    "visible_amount_source": "bot_comments",
+    "status_at_snapshot": "announced_by_two_codebounty_bot_comments_after_two_pending_approval_comments",
+    "pending_approval_comment_count": 2,
+    "pending_approval_comments": [
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/82#issuecomment-2781231507",
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/82#issuecomment-2781231508"
+    ],
+    "announcement_comment_count": 2,
+    "announcement_comments": [
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/82#issuecomment-2808231115",
+      "https://github.com/CodeBountyOrg/BountyTestRepository/issues/82#issuecomment-2808231684"
+    ],
+    "bounty_links": [
+      "http://localhost:3000/bounty/67f21306730fd07f850f2d19",
+      "http://localhost:3000/bounty/67f21306730fd07f850f2d1d"
+    ],
+    "required_pr_linkage": "fixes #82",
+    "developer_application_required": true,
+    "verified_payable_at_snapshot": false,
+    "blocker": "The CodeBounty announcement requires a platform application; a GitHub PR is submitted-visible only until CodeBounty/maintainer acceptance and payout eligibility are verified."
+  },
+  "duplicate_approval_snapshot": {
+    "duplicate_pending_approval_comments": true,
+    "duplicate_bot_announcements": true,
+    "unique_bounty_link_count": 2,
+    "note": "Issue #82 has two pending-approval comments and two later CodeBounty bot announcement comments for the same $10 issue, preserving two distinct local bounty IDs. This fixture records that sequence without claiming verified payout eligibility."
+  },
+  "collision_snapshot": {
+    "checked_at": "2026-05-14T00:02:57Z",
+    "repo_archived": false,
+    "repo_visibility": "PUBLIC",
+    "open_pr_search_terms": ["82", "#82", "fixes #82", "issue 82", "test new issue apr 6 1235am", "test issue 1235am"],
+    "same_scope_open_pr_count": 0,
+    "raw_open_pr_search_hits": 0,
+    "false_positive_open_pr_hits": []
+  },
+  "expected_pr": {
+    "title": "test: add CodeBounty issue 82 duplicate-approval fixture",
+    "body_must_include": [
+      "fixes #82",
+      "CodeBounty",
+      "$10",
+      "developer_application_required",
+      "duplicate_pending_approval_comments",
+      "verified_payable=false"
+    ]
+  }
+}
