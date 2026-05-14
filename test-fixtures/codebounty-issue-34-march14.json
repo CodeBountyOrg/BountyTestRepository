@@ -1,0 +1,56 @@
+{
+  "issue": {
+    "repo": "CodeBountyOrg/BountyTestRepository",
+    "number": 34,
+    "title": "issue march 14 3am",
+    "url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/34",
+    "state_at_snapshot": "open",
+    "locked_at_snapshot": false,
+    "assignees_at_snapshot": [],
+    "labels_at_snapshot": [
+      "💰 Bounty Available"
+    ],
+    "body": "sdad"
+  },
+  "bounty": {
+    "source": "CodeBounty bot comment",
+    "source_confidence": "bot-comment-plus-bounty-label",
+    "announcement_comment_url": "https://github.com/CodeBountyOrg/BountyTestRepository/issues/34#issuecomment-2723925317",
+    "local_bounty_url": "http://localhost:3000/bounty/67d3e306c25c14dc1ccc86bc",
+    "amount": 10,
+    "currency": "USD",
+    "label": "💰 Bounty Available",
+    "platform_application_required": true,
+    "verified_payable": false
+  },
+  "collision_snapshot": {
+    "captured_at_utc": "2026-05-14T02:02:49Z",
+    "repo_archived": false,
+    "open_pr_count_at_repo": 35,
+    "search_terms": [
+      "34",
+      "#34",
+      "fixes #34",
+      "issue 34",
+      "issue-34",
+      "issue march 14 3am"
+    ],
+    "same_scope_open_prs": []
+  },
+  "pr_linkage": {
+    "required_phrase": "Fixes #34",
+    "case_sensitive": false
+  },
+  "deliverable": {
+    "type": "codebounty-platform-flow-fixture",
+    "purpose": "Preserve deterministic evidence for the March 14 CodeBounty test issue so future intake can validate issue state, visible amount, required GitHub linkage, collision checks, and payout boundary without relying on localhost platform access.",
+    "acceptance_checks": [
+      "fixture issue number is 34",
+      "visible CodeBounty amount is 10 USD",
+      "public bot announcement URL is recorded",
+      "no same-scope open PR collision existed at snapshot",
+      "PR body/linkage includes Fixes #34",
+      "verified-payable remains false until CodeBounty application and maintainer/platform acceptance are confirmed"
+    ]
+  }
+}
